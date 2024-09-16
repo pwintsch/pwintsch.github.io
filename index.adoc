@@ -1,3 +1,7 @@
 = Welcome to the fool's voyage in the world of 8bit emulation
 
 A blow by blow account of my futile attemps at emulating the computers, consoles and arcades I grew up with. Done for no other reason than to see if I can. If it helps others along the way, then that's a bonus!
+
+== Introduction
+
+So I am not really starting from scratch, I have previous !!!
