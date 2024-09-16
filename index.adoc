@@ -14,4 +14,24 @@ This was a great learning experience, and I was hooked. I then went on to write 
 
 I then started amusing myself and wrote a basic interpreter, covering all of TinyBasic and more in C and C++, complete with full screen editor and line editor.
 
-But none of these were ever really finished and polished, I suppose it is the priviledge og the hobbyist to be able to move on to the next shiny thing as soon as the current one becomes boring.
+But none of these were ever really finished and polished, I suppose it is the priviledge of the hobbyist to be able to move on to the next shiny thing as soon as the current one becomes boring.
+
+I restarted the whole cycle again recently in Python and, encouraged by the discovery of AsciiDoc (thank-you Oxide), I have decided to document my progress this time around, as one of the frustrations was not remembering what I had done before and having to relearn everything.
+
+== Universal Machine v2024
+
+Started on the 1st of August Weekend on a trip to London, the idea was initially to test how far I could go with Pythonista on the iPad, and refresh my Python knowledge.
+
+I will move the code to github and retro document the project, but in short I got quite far, I had a working emulator and disassembler in a weekend. Which shows the strengths of Python but also the limitations of Pythonista, especially as it had re-awoken my itch for writing emulators, so I moved to my Mac for the next project.
+
+
+== ChipPy
+
+
+
+
+== PyRetroScreen
+
+One of the big questions I have is what to write the emulators in. Currently I am writing them in Python, but I am not sure if this is the best language for the job. My concerns remain around speed, I dont want to write an emulator that is too slow to be workable. It would kill any fun in writing and playing with it.
+
+Which leads to my current project PyRetroScreen, basically a test bed for screen routines to see if I can get the speed I need in Python on a screen that is 300 by 200 pixels.
