@@ -1,7 +1,11 @@
-= Welcome to the fool's voyage in the world of 8bit emulation
+= Welcome to the fool's voyage in the world of 8bit emulation and basic interpreters
 
 A blow by blow account of my futile attemps at emulating the computers, consoles and arcades I grew up with. Done for no other reason than to see if I can. If it helps others along the way, then that's a bonus!
 
 == Introduction
 
 So I am not really starting from scratch, I have previous !!!
+
+Since late 2019 i have been writing code off and on around these subjects.
+
+It started with the Cult of the bound Variable. (http://www.boundvariable.org/task.shtml). The first part of which was to write an emulator for a weird pre-historic computer. 
