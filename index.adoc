@@ -60,12 +60,13 @@ My key tools are:
 
 My key steps are:
     - Create a new repository on Github
+    ( am going to go straight from vs code with https://stackoverflow.com/questions/46877667/how-to-add-a-new-project-to-github-using-vs-code/63898638#63898638 )
     - Clone the repository to my local machine
     - Create a new project in VS Code
     - Create a new AsciiDoc file in the repository
     - Start coding
 
-    
+
 
 == Space Invaders
 
