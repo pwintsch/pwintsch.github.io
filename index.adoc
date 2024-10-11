@@ -12,7 +12,7 @@ It started with the Cult of the bound Variable. (http://www.boundvariable.org/ta
 
 This was a great learning experience, and I was hooked. I then went on to write a CHIP-8 emulator in GO and more recently in Python. 
 
-I then started amusing myself and wrote a basic interpreter, covering all of TinyBasic and more in C and C++, complete with full screen editor and line editor.
+I then started amusing myself and wrote a basic interpreter, covering all of TinyBasic and more in C and then again in  C++, complete with full screen editor and line editor.
 
 But none of these were ever really finished and polished, I suppose it is the priviledge of the hobbyist to be able to move on to the next shiny thing as soon as the current one becomes boring.
 
@@ -27,6 +27,11 @@ I will move the code to github and retro document the project, but in short I go
 
 == ChipPy
 
+Having decided that Pythonista was good, particularly for smaller projects such as data engines (I have a Premiership match prediction algorithm on the go) and  was never going to work for emulators, and all enthusiastic after my Universal machine Python exploits (beauty is in the eye of the beholder) i decided I would try my hand at a Chip8 emulator in Python with pyGame, on my Mac.
+
+The current result runs better than my last attempt in Go, no sound yet but that looks like a world of pain.
+
+It's all documented here -> the road to Chip8.
 
 
 
@@ -34,4 +39,34 @@ I will move the code to github and retro document the project, but in short I go
 
 One of the big questions I have is what to write the emulators in. Currently I am writing them in Python, but I am not sure if this is the best language for the job. My concerns remain around speed, I dont want to write an emulator that is too slow to be workable. It would kill any fun in writing and playing with it.
 
+That said it has a lot going for it. Numeric arrays and Numpy allow for typed programming and speed when accessing array of numbers, important for dealing with registers and memory. The integration with VS Code is lovely and the ecosystem is large, which on top of Python's ease of use makes it almost ideal for the hobbyist programmer.
+
 Which leads to my current project PyRetroScreen, basically a test bed for screen routines to see if I can get the speed I need in Python on a screen that is 300 by 200 pixels.
+
+I have written a basic screen routine in Python, using Pygame, and it is fast enough for my needs. I have also added a basic bitmap font which allows me to check some further performance strategies.
+
+
+== My workflow and tools
+
+Just so that I dont forget I will quickly jot down here my key steps each time I start a new project.
+
+My key tools are:
+    - Github - source code control and documentation repositary
+    - VS Code - my editor of choice
+    - AsciiDoc - for documentation
+    - Python - my language of choice
+    - Pygame - for screen and sound
+    - Numpy - for fast array manipulation
+
+My key steps are:
+    - Create a new repository on Github
+    - Clone the repository to my local machine
+    - Create a new project in VS Code
+    - Create a new AsciiDoc file in the repository
+    - Start coding
+
+    
+
+== Space Invaders
+
+The next logical project is Space invaders. It is a well documented project, with a lot of resources available, and it is a game which has a lot of emotional meaning for me as it is the first video/computer game I can rememember watching (on the ferries to and from France in the late seventies).
