@@ -68,6 +68,26 @@ My key steps are:
 
 
 
-== Space Invaders
+== Pynvaders - Space Invaders
 
 The next logical project is Space invaders. It is a well documented project, with a lot of resources available, and it is a game which has a lot of emotional meaning for me as it is the first video/computer game I can rememember watching (on the ferries to and from France in the late seventies).
+
+So I created the project in Python and VS-Code. Wrote the disassembler quite quickly (for me!), and then spent a little time reading about the next steps on the web, and whilst perusing a blog entry on Emulator optimisation, I had a doubt what if it was going to be too slow, I could not see myself embarking on  several weekends of work to have something that would be unlikely to ever meet its stated objectives ! 
+
+So I officially abandoned space invaders Mame emulator in Python
+
+
+== A crossing of the road
+So for the last couple of months I was focused on Python and now I have to change. I had been toying with the idea of SWIFT. Either standalone or mixed with C or C++. This being driven by the fact I am completely engrossed in the Apple universe and I might as well go somewhere where not too many have been. 
+
+The question is how far back do I go. Do I start once more with the COBTV in SWIFT ? Or skip that and go straight to Chip8 ? or damn that and go straight to Space Invaders emulation.
+
+I think fundementally I need to rebuild up, so lets go through the steps and motions one by one
+
+== COBTV in SWIFT
+The objective of this project will be to 
+- understand and document the creation of a project in XCode/Swift
+- produce a command line UM disassembler in SWIFT
+- produce a command line UM emulator
+Here we go ....
+
